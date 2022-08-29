@@ -38,7 +38,9 @@ padding-bottom: 20px;
     font-size: 12px;
 }
 
-
+.highlighted{
+    background-color: #ffe44d;
+}
 .row-title{
     background-color: rgb(23, 149, 190);
     color: white;
@@ -47,7 +49,7 @@ padding-bottom: 20px;
 
 .row-left{
     display: inline-block;
-    width: 30%;  
+    width: 30%; 
 }
 
 .row-center{

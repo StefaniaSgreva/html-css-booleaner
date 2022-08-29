@@ -14,5 +14,37 @@
     width: 250px; 
 }
 
+.row-title{
+    background-color: rgb(23, 149, 190);
+    color: white;
+    font-weight: bold;
+}
+.row-left{
+    display: inline-block;
+    width: 30%;
+    
+}
+
+.row-center{
+    display: inline-block;
+    width: 30%;
+}
+
+.row-right{
+    display: inline-block;
+    width: 30%;
+}
+
+.row-white{
+    background-color: white;
+}
+.row-lightblue{
+    background-color: lightblue;
+}
 
 
+
+
+.footer-image-2{
+    display: block;
+}

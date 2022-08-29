@@ -55,6 +55,8 @@ padding-bottom: 20px;
 .row-center{
     display: inline-block;
     width: 30%;
+    /* line-height: 30px;
+    vertical-align: middle; */
 }
 
 .row-right{
@@ -77,3 +79,7 @@ padding-bottom: 20px;
 h3{
     color: gray;
 }
+.lightblue{
+    color: rgb(9, 194, 255);
+}
+

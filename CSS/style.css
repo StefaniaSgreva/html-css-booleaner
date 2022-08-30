@@ -1,19 +1,25 @@
-body{
+/* CLASS RESET/common-general - tutto quello che vogliamo sia creato di base*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-weight: bold;
-  }
+  } 
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .site-identity{
     background-color: lightskyblue;
     background-image: url("../img/pattern.png");
-    background-position: 50px 280px; 
-    padding: 30px;
+    background-size: 30%;
 }
 
 .logo{
-    width: 250px; 
+    max-width: 20%; 
+    margin: 35px 0;
 }
 
 .title{
@@ -34,9 +40,10 @@ font-weight: bold;
 padding-bottom: 20px;
 }
 
-.photo-credits{
-    font-size: 12px;
-}
+/* .list{
+    margin per irentrare i pallini
+} */
+
 
 .highlighted{
     background-color: #ffe44d;
@@ -52,7 +59,7 @@ padding-bottom: 20px;
     width: 30%; 
 }
 
-.row-center{
+.row-middle{
     display: inline-block;
     width: 30%;
     /* line-height: 30px;
